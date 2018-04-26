@@ -31,8 +31,8 @@ from data_generator.data_augmentation_chain_original_ssd import SSDDataAugmentat
 
 
 
-img_height = 300 # Height of the input images
-img_width = 300 # Width of the input images
+img_height = 70 # Height of the input images
+img_width = 70 # Width of the input images
 img_channels = 3 # Number of color channels of the input images
 intensity_mean = 127.5 # Set this to your preference (maybe `None`). The current settings transform the input pixel values to the interval `[-1,1]`.
 intensity_range = 127.5 # Set this to your preference (maybe `None`). The current settings transform the input pixel values to the interval `[-1,1]`.
